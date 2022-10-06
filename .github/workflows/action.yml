@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: 'Nikhil-Muddamsetty'
+          scope: '@Mool-Innovation-Labs'
       - run: npm install
       - run: npm publish
         env:
