@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Nikhil Muddamsetty",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.10.0"
+  }
 }

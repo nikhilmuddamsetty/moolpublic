@@ -1,7 +1,5 @@
-const sayHello = (name) => {
-    console.log('Hello ' + name + '!');
-};
+const validationRules = require("./modules/validator/index.validator").validationRules
 
 module.exports = {
-    sayHello,
+    validationRules
 };
