@@ -1,8 +1,8 @@
 const mongodb = require("mongodb");
 const MongoClient = mongodb.MongoClient;
 const ObjectID = mongodb.ObjectID;
-const response = require("../mixins/response.mixins").methods;
-const mongoDBIndexCreator = require("../utils/mongoDBIndexCreator.utils");
+const response = require("../response/index.response");
+const mongoDBIndexCreator = require("./mongoDBIndexCreator.mongoDB");
 
 class MongoDbAdapter {
   /**
